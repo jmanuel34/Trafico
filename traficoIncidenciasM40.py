@@ -10,6 +10,7 @@ results = []
 
 items = soup.find('tbody')
 for item in items.findAll('tr'):
+    print (type(item))
     incidence = {}
     columns = item.findAll('td')
     incidence["hora_inicio"] = columns[0].find('span', {'class': 'orange'}).get_text()
@@ -19,11 +20,12 @@ for item in items.findAll('tr'):
     incidence["tipo"] = columns[2].find('img').get('alt')
     incidence["provincia"] = columns[3].findAll('p')[0].text + " " + columns[3].findAll('p')[1].text
     incidence["carretera"] = columns[4].find('b').text
+ #   print (incidence["carretera"])
     description = ""
     for info in columns[5].findAll('span'):
         description += info.text
     incidence["descripcion"] = description
     results.append(incidence)
 
-with open("results.json", "w") as results_file:
-    json.dump(results, results_file, indent=4, sort_keys=True, ensure_ascii=False)
+with open("results.json","w") as results_file:
+    json.dump(results, results_file,indent=4,sort_keys=True, ensure_ascii=False)

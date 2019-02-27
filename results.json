@@ -1,12 +1,162 @@
 [
     {
+        "carretera": "A-2",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por ACCIDENTE y CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  A-2   a la altura de ALCALA DE HENARES (MADRID) desde el  km 25.3 al  km 27 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia MADRIDA-2  Advertencia: CARRIL IZQUIERDO CERRADO, CONDICIONES DIFÍCILES CIRCULACIÓN",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "10:06",
+        "provincia": "MADRID ALCALA DE HENARES",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2096019"
+    },
+    {
+        "carretera": "A-6",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  A-6   a la altura de POZUELO DE ALARCON (MADRID) desde el  km 12.3 al  km 17 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia MADRIDA-6  Advertencia: CONDICIONES DIFÍCILES CIRCULACIÓN",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "10:03",
+        "provincia": "MADRID POZUELO DE ALARCON",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095372"
+    },
+    {
+        "carretera": "M-50",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  M-50   a la altura de BOADILLA DEL MONTE (MADRID) desde el  km 73 al  km 71 sentido CRECIENTE DE LA KILOMETRACIÓN hacia A-6M-50 ",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "10:02",
+        "provincia": "MADRID BOADILLA DEL MONTE",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095329"
+    },
+    {
+        "carretera": "A-6",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  A-6   a la altura de MADRID (MADRID) desde el  km 4 al  km 10 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia MADRIDA-6  Advertencia: CONDICIONES DIFÍCILES CIRCULACIÓN",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "10:02",
+        "provincia": "MADRID MADRID",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095335"
+    },
+    {
+        "carretera": "M-40",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  M-40   a la altura de MADRID (MADRID) desde el  km 47 al  km 53 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia A-6M-40 ",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "10:01",
+        "provincia": "MADRID MADRID",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095620"
+    },
+    {
+        "carretera": "M-40",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  M-40   a la altura de MADRID (MADRID) desde el  km 43 al  km 41 sentido CRECIENTE DE LA KILOMETRACIÓN hacia A-1M-40 ",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "10:00",
+        "provincia": "MADRID MADRID",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095517"
+    },
+    {
+        "carretera": "M-40",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  M-40   a la altura de MADRID (MADRID) desde el  km 11 al  km 14 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia A-2M-40 ",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "09:59",
+        "provincia": "MADRID MADRID",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095384"
+    },
+    {
+        "carretera": "M-40",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  M-40   a la altura de MADRID (MADRID) desde el  km 25 al  km 28 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia A-4M-40 ",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "09:57",
+        "provincia": "MADRID MADRID",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095325"
+    },
+    {
+        "carretera": "A-3",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por ACCIDENTE y CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  A-3   a la altura de RIVAS-VACIAMADRID (MADRID) desde el  km 20 al  km 24 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia MADRIDA-3  Advertencia: ARCÉN CERRADO, CONDICIONES DIFÍCILES CIRCULACIÓN",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "09:56",
+        "provincia": "MADRID RIVAS-VACIAMADRID",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095689"
+    },
+    {
+        "carretera": "A-5",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  A-5   a la altura de MADRID (MADRID) desde el  km 6 al  km 11 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia MADRIDA-5  Advertencia: CONDICIONES DIFÍCILES CIRCULACIÓN",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "09:50",
+        "provincia": "MADRID MADRID",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095380"
+    },
+    {
+        "carretera": "A-5",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por AVERÍA con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  A-5   a la altura de MOSTOLES (MADRID) desde el  km 14 al  km 15 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia MADRIDA-5  Advertencia: CARRIL DERECHO CERRADO",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "09:35",
+        "provincia": "MADRID MOSTOLES",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095527"
+    },
+    {
+        "carretera": "A-4",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  A-4   a la altura de MADRID (MADRID) desde el  km 8 al  km 12 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia MadridA-4  Advertencia: CONDICIONES DIFÍCILES CIRCULACIÓN",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "09:34",
+        "provincia": "MADRID MADRID",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2096062"
+    },
+    {
+        "carretera": "M-40",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  M-40   a la altura de MADRID (MADRID) desde el  km 7 al  km 10 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia A-1M-40 ",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "09:24",
+        "provincia": "MADRID MADRID",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095506"
+    },
+    {
+        "carretera": "A-42",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  A-42   a la altura de PARLA (MADRID) desde el  km 17 al  km 25 sentido DECRECIENTE DE LA KILOMETRACIÓN hacia MADRIDA-42  Advertencia: CONDICIONES DIFÍCILES CIRCULACIÓN",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "08:23",
+        "provincia": "MADRID PARLA",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095328"
+    },
+    {
+        "carretera": "A-3",
+        "descripcion": " RETENCIÓN / CONGESTIÓN por CIRCULACIÓN con circulación irregular  en:   - La AUTOPISTA / AUTOVÍA  A-3   a la altura de RIVAS-VACIAMADRID (MADRID) desde el  km 16 al  km 14 sentido CRECIENTE DE LA KILOMETRACIÓN hacia VALENCIAA-3  Advertencia: CONDICIONES DIFÍCILES CIRCULACIÓN",
+        "fecha_fin": "",
+        "fecha_inicio": "27/02/2019",
+        "hora_fin": "",
+        "hora_inicio": "08:20",
+        "provincia": "MADRID RIVAS-VACIAMADRID",
+        "tipo": "RETENCIÓN / CONGESTIÓN / Nivel Amarillo / 2095672"
+    },
+    {
         "carretera": "M-111",
         "descripcion": " RESTRICCIONES A MERCANCÍAS PELIGROSAS por CIRCULACIÓN en Túnel Barajas:   -  La carretera   M-111   a la altura de MADRID (MADRID) desde el  km 1.1 al  km 5 sentido AMBOS SENTIDOSM-111 ",
-        "fecha_fin": "20/02/2019",
-        "fecha_inicio": "20/02/2019",
+        "fecha_fin": "27/02/2019",
+        "fecha_inicio": "27/02/2019",
         "hora_fin": "23:00",
         "hora_inicio": "06:00",
         "provincia": "MADRID MADRID",
-        "tipo": "RESTRICCIONES / Nivel Gris / 1946124"
+        "tipo": "RESTRICCIONES / Nivel Gris / 1946131"
     }
 ]
