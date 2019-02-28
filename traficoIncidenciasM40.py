@@ -10,7 +10,7 @@ results = []
 
 items = soup.find('tbody')
 for item in items.findAll('tr'):
-    print (type(item))
+#    print (type(item))
     incidence = {}
     columns = item.findAll('td')
     incidence["hora_inicio"] = columns[0].find('span', {'class': 'orange'}).get_text()
@@ -25,7 +25,9 @@ for item in items.findAll('tr'):
     for info in columns[5].findAll('span'):
         description += info.text
     incidence["descripcion"] = description
-    results.append(incidence)
+    if (incidence["carretera"] == "M-40"):
+        print (incidence)
+        results.append(incidence)
 
-with open("results.json","w") as results_file:
-    json.dump(results, results_file,indent=4,sort_keys=True, ensure_ascii=False)
+#with open("results.json","w") as results_file:
+#        json.dump(results, results_file,indent=4,sort_keys=True, ensure_ascii=False)
