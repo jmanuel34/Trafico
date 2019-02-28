@@ -13,33 +13,39 @@ patron1 = '<.*?>'
 patronEspacio = '\s+'
 # pprint (pagina)
 #  Funcionando en Jupyter
-# pttrn = '<tr.*?p1TablaIncidencias.*?(\d\d:\d\d)</span.*?(\d\d/\d\d/\d\d\d\d).*?alt=(.*?)/(.*?)/(.*?)/.*?>M-111<.*?nombreIncidencia.*?span style="margin-top:10px; float:left; clear:both">(.*?)</tr>'
+pttrn = '<tr.*?p1TablaIncidencias.*?(\d\d:\d\d)</span.*?(\d\d/\d\d/\d\d\d\d).*?(Nivel.*?)/.*?nombreIncidencia.*?span style="margin-top:10px; float:left; clear:both">(.*?)</tr>'
+#pttrn = '<tr.*?p1TablaIncidencias.*?(\d\d:\d\d)</span.*?(\d\d/\d\d/\d\d\d\d).*?img src=.*?alt=(.*?)/(.*?)/(.*?)/.*?>M-40<.*?nombreIncidencia.*?span style="margin-top:10px; float:left; clear:both">(.*?)</tr>'
 
-pttrn = '<tr.*?p1TablaIncidencias.*?(\d\d:\d\d)</span.*?(\d\d/\d\d/\d\d\d\d).*?img src=.*?alt=(.*?)/(.*?)/(.*?)/.*?>M-40<.*?nombreIncidencia.*?span style="margin-top:10px; float:left; clear:both">(.*?)</tr>'
+#pttrn = '<tr.?p1TablaIncidencias.?(\d\d:\d\d).?(\d\d/\d\d/\d\d\d\d).?(Nivel.?)/.?/.?<b>(.?)</b>.?p2TablaIncidencias.?;">(.?)</a>.?nombreIncidencia.*?</tr>'
 with open(p, 'a', encoding='utf-8') as file:
-    print (pagina)
+#    print (pagina)
     elements = re.findall(pttrn, pagina, re.DOTALL | re.MULTILINE | re.IGNORECASE)
     pprint (elements)
     elementos = [
-        [line[0], line[1], line[2], line[3], line[4], re.sub(patron1, ' ', line[5])]
+        [line[0], line[1], line[2],   re.sub(patron1, ' ', line[3])]
         for line in elements
     ]
+    pprint (elementos)
 
     elementos1 = [
-        [line[0], line[1], line[3], line[4], re.sub(patronEspacio, ' ', line[5])]
+        [line[0], line[1], line[2],  re.sub(patronEspacio, ' ', line[3])]
         for line in elementos
     ]
-    print(elementos1)
+ #   print(elementos1)
     for element in elementos1:
         pprint(element[0])
         pprint(element[1])
         pprint(element[2])
         pprint(element[3])
-        pprint(element[4])
-        pprint(element[5])
+ #       pprint(element[4])
+ #       pprint(element[5])
+ #       pprint(element[6])
+
+        """
         file.write(element[0])
         file.write(element[1])
         file.write(element[2])
         file.write(element[3])
         file.write(element[4])
         file.write(element[5])
+        """
