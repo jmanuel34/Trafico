@@ -1,5 +1,5 @@
-import json
 
+import json
 import requests
 from bs4 import BeautifulSoup
 
@@ -25,7 +25,7 @@ for item in items.findAll('tr'):
     for info in columns[5].findAll('span'):
         description += info.text
     incidence["descripcion"] = description
-    if (incidence["carretera"] == "M-40"):
+    if (incidence["carretera"] == "M-111"):
         print (incidence)
         results.append(incidence)
 
